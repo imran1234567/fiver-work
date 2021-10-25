@@ -8,11 +8,7 @@ const fs = require("fs");
 
 var app = express();
 var main = require("./router/index");
-const connectDB = require("./config/db");
-
 dotEnv.config({ path: "./config/config.env" });
-connectDB(); // connect MongoDB
-
 global.appRoot = path.resolve(__dirname);
 
 // Http authentication
