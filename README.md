@@ -12,11 +12,6 @@ After cloning the project, follow the steps to work on your local machine.
 - npm start
 - ✨ Now see magic ✨
 
-## Features
-
-- Schedule Zoom video call
-- Get all your meeting chats and documents in one place
-- Access all your documents of meeting anytime, anywhere
 
 ## Don't know how to install husky?
 
