@@ -10,8 +10,9 @@ router.get("/", (req, res) => {
   details.totalMemory = totalMemory;
   details.freeMemory = freeMemory;
   details.cpu = cpu;
+  const jsonData = JSON.stringify(details);
   res.header("Access-Control-Allow-Origin", "*");
-  res.send(details);
+  res.send(jsonData);
 });
 
 module.exports = router;
